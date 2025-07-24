@@ -18,6 +18,8 @@ logs/server.log
 *.db
 *.db-journal
 storage/lancedb
+!storage/lancedb/reiber-group-anythingllm-command-center.lance/
+!storage/lancedb/reiber-group-anythingllm-command-center.lance/**
 public/
 
 # For legacy copies of repo
