@@ -69,6 +69,16 @@
       "name": "Launch Chrome against localhost",
       "url": "http://localhost:3000",
       "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Run Explore LanceDB",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/explore_lancedb.py",
+      "console": "integratedTerminal",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
     }
   ]
 }
