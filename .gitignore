@@ -1,12 +1,25 @@
-v-env
+# Python virtual environments
+venv/
+v-env/
+.venv/
+__pycache__/
+
+# Environment files
 .env
 !.env.example
 
-node_modules
-__pycache__
-v-env
+# macOS + IDE noise
 .DS_Store
-aws_cf_deploy_anything_llm.json
+.idea/
+
+# Lockfiles
 yarn.lock
 *.bak
-.idea
+
+# AWS deployment config
+aws_cf_deploy_anything_llm.json
+
+# Prevent redundant node_modules if someone misinstalls
+/node_modules/
+/server/node_modules/
+
